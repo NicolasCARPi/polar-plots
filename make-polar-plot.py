@@ -7,7 +7,7 @@ import math
 # read csv file
 data = pd.read_csv('data.csv')
 
-rows = 2
+rows = len(data.columns)
 cols = 1
 fignum = 1
 fig = plt.figure(figsize=(20,20))
